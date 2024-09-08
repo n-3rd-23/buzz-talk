@@ -1,2 +1,2 @@
-Attempt to build a chat library using firebase
-still in development
+Attempt to build a react chat library using firebase
+<br/>still in development

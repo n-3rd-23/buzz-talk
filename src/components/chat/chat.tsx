@@ -1,8 +1,10 @@
+import { FirebaseApp } from "firebase/app";
 import { ChatDetails } from "./chat-details";
 import { ChatList } from "./chat-list";
 
-export interface ChatWrapperProps {
+export interface BuzzTalkProps {
   wrapperClassNames?: string;
+  firebaseApp: FirebaseApp;
 }
 
 export function Chat() {
